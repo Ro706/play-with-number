@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Add</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="nav">
+                <img src="../logo.jpg" alt="Logo" align="left">
+            </div>
+            <div class="nav">
+                <div class="timer" align="left">Time remaining: <span id="time-remaining">60</span> seconds</div>
+                <br><br>
+                <nav>
+                    <ul>
+                        <li class="current"><a href="add.html">Add</a></li>
+                        <li><a href="subtract.html">Subtract</a></li>
+                        <li><a href="multiply.html">Multiply</a></li>
+                        <li><a href="divide.html">Divide</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <div id="equation">
+            <h1 id="num1" style="color:#FE4A49"></h1>
+            <h1 style="color: #2AB7CA;">÷</h1>
+            <h1 id="num2" style="color: #FED766"></h1>
+            <h1 style="color: #F86624">=</h1>
+            <h1 style="color: gray">?</h1>
+            <div id="score"></div>
+            <button id="play-again" onclick="location.href='index.html'">Play Again</button>
+        </div>
+        <div class="answer-options">
+            <div class="options" style="background-color: #FE4A49;">
+                <h1 id="option1">1</h1>
+            </div>
+            <div class="options" style="background-color: #2AB7CA;">
+                <h1 id="option2">2</h1>
+            </div>
+            <div class="options" style="background-color: #FED766;">
+                <h1 id="option3">3</h1>
+            </div>
+        </div>
+    </div>
+    <div id="message"></div>
+</body>
+<script src="divide.js"></script>
+
+</html>
