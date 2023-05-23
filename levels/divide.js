@@ -39,10 +39,11 @@ window.onload = function() {
 
 // Function to generate equation and create options
 function generateEquation() {
-    num1 = Math.floor(Math.random() * 20);
-    num2 = Math.floor(Math.random() * 20);
-    ans = (num1 / num2).toFixed(1);
-    console.log(ans)
+    num1 = Math.floor(Math.random() * 20) + 1;
+    do {
+        num2 = Math.floor(Math.random() * 20) + 1;
+    } while (num2 == 0);
+    ans = parseFloat((num1 / num2).toFixed(1));
 
     number1.innerHTML = num1;
     number2.innerHTML = num2;
@@ -52,7 +53,7 @@ function generateEquation() {
     options.push(ans)
     for (let _ = 0; _ < 2; _++) {
         do {
-            var dummy = (Math.random() * 40).toFixed(1);
+            var dummy = (Math.random() * range + ans).toFixed(1);
         } while (dummy == ans);
         options.push(dummy);
     }
@@ -63,7 +64,7 @@ function generateEquation() {
     option3.innerHTML = options[2];
 }
 
-var correct = 0, score = 0;
+var correct = 0, score = 0, range = 3;
 
 // Checking the option selected
 function checkOption(selectedOption) {
