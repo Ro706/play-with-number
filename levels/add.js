@@ -42,7 +42,6 @@ function generateEquation() {
     num1 = Math.floor(Math.random() * 20);
     num2 = Math.floor(Math.random() * 20);
     ans = num1 + num2;
-    console.log(ans)
 
     number1.innerHTML = num1;
     number2.innerHTML = num2;
@@ -63,7 +62,7 @@ function generateEquation() {
     option3.innerHTML = options[2];
 }
 
-var correct = 0, score = 0;
+var correct = 0, score = 0, range = 3;
 
 // Checking the option selected
 function checkOption(selectedOption) {
