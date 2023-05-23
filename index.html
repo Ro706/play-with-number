@@ -1,33 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Math Game</title>
+    <title>maths Game</title>
 </head>
-
 <body>
     <center><img src="logo.jpg" alt="Logo"></center>
     <br><br><br><br><br><br><br><br>
     <center>
-        <p style="font-size: 40px;">Game Mode:</p>
+        <button id="start">START</button>
+        <br><br>
+    <ul id="list">
+        <a href="/levels/add.js"><button class="nano">Addition</button></a><br><br>
+        <a href="/levels/divide.html"><button class="nano">Division</button></a><br><br>
+        <a href="/levels/subtract.html"><button class="nano">Substraction</button></a><br><br>
+        <a href="/levels/multiply.html"><button class="nano">Multiplication</button></a><br><br>
+    </ul>
     </center>
-    <br>
-    <center><a href="levels/add.html">
-            <button id="start">Addition</button>
-        </a></center><br><br>
-    <center><a href="levels/subtract.html">
-            <button id="start">Subtraction</button>
-        </a></center><br><br>
-    <center><a href="levels/multiply.html">
-            <button id="start">Multiplication</button>
-        </a></center><br><br>
-    <center><a href="levels/divide.html">
-            <button id="start">Division</button>
-        </a></center>
+    <script src="/index.js"></script>
 </body>
-
 </html>
