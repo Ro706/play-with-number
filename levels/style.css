@@ -137,26 +137,6 @@ nav a{
     margin-left: 10px;
 }
 
-#play-again{
-    text-decoration: none;
-    margin: 10px;
-    text-align: center;
-    font-size:30px;
-    padding: 20px;
-    color:white;
-    background-color: red;
-    border-radius: 30px;
-    position: absolute;
-    bottom: 0;
-    margin-left: 1300px;
-}
-
-#play-again:hover{
-    background-color: rgb(30, 255, 30);
-    cursor: pointer;
-    color:white;
-}
-
 #message {
     position: fixed;
     top: 750px;
