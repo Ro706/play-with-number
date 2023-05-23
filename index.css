@@ -35,7 +35,21 @@ img{
   color:rgb(51, 51, 51);
   font-size: 35px;
 }
-
+.nano1{
+  width: 220px;
+  border:0px;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 46px;
+  background: #fab85b;
+  box-shadow:  7px 7px 14px #676767,
+               -7px -7px 14px #ffffff;
+}
+.nano1:hover{
+  cursor: pointer;
+  color:rgb(51, 51, 51);
+  font-size: 35px;
+}
 
 *{
   padding: 0;
