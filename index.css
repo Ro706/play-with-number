@@ -11,13 +11,12 @@ img{
   font-size: 40px;
   padding: 20px;
   border:0px;
-  border-radius: 52px;
-  background: linear-gradient(145deg, #b4c7c9, #d6ecef);
-  box-shadow:  25px 25px 50px #505859,
-               -25px -25px 50px #ffffff;
+  border-radius: 46px;
+  background: #e0e0e0;
+  box-shadow:  7px 7px 14px #676767,
+               -7px -7px 14px #ffffff;
 }
 #start:hover{
-  background-color:#c53232;
   cursor: pointer;
   color:rgb(51, 51, 51);
   font-size: 35px;
@@ -26,13 +25,12 @@ img{
   border:0px;
   font-size: 30px;
   padding: 10px;
-  border-radius: 52px;
-  background: linear-gradient(145deg, #b4c7c9, #d6ecef);
-  box-shadow:  25px 25px 50px #505859,
-               -25px -25px 50px #ffffff;
+  border-radius: 46px;
+  background: #e0e0e0;
+  box-shadow:  7px 7px 14px #676767,
+               -7px -7px 14px #ffffff;
 }
 .nano:hover{
-  background-color:#1fb5b5;
   cursor: pointer;
   color:rgb(51, 51, 51);
   font-size: 35px;
