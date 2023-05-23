@@ -170,3 +170,24 @@ nav a{
     font-size: 40px;
     font-family: 'Luckiest Guy', cursive;
 }
+
+#play-again{
+    text-decoration: none;
+    margin: 10px;
+    text-align: center;
+    font-size:30px;
+    padding: 20px;
+    color:white;
+    background-color: red;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 160px;
+    margin-right: 25px;
+}
+
+#play-again:hover{
+    background-color: rgb(30, 255, 30);
+    cursor: pointer;
+    color:white;
+}
