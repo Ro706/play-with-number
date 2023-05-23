@@ -18,3 +18,6 @@ Go to this URL:
 
 ![Web capture_23-5-2023_194041_ro706 github io](https://github.com/Ro706/play-with-number/assets/60247178/cc9ca3aa-3803-4407-bc39-e87d540d44f2)
 
+<h2>Step 4: feedback part</h2>
+
+![Web capture_23-5-2023_221721_ro706 github io](https://github.com/Ro706/play-with-number/assets/60247178/709f5e16-a30a-4322-910c-058ac9eda033)
