@@ -12,6 +12,6 @@ button.addEventListener("click", (event) => {
 function playsound(audioNAme,loop) {
     const audio = new Audio(audioName,);
     audio.loop = loop;
-    audio.play();
+    audio.play(); 
 }
 playsound("./bgaudio.mp3",true)

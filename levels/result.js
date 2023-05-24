@@ -21,9 +21,9 @@ if (score <= 0) {
     banner.src = '3star.png';
 }
 
-function playsound(audioNAme,loop) {
-    const audio = new Audio(audioName,);
-    audio.loop = loop;
-    audio.play(); 
-}
-playsound("../play-with-number/bgaudio.mp3",true)
+// function playsound(audioNAme,loop) {
+//     const audio = new Audio(audioName,);
+//     audio.loop = loop;
+//     audio.play(); 
+// }
+// playsound("../play-with-number/bgaudio.mp3",true)
