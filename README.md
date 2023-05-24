@@ -9,10 +9,11 @@ Go to this URL:
 `https://ro706.github.io/play-with-number/` <br>
 <h2>Step 1: click on the Start button.</h2>
 
-![Screenshot 2023-05-23 164303](https://github.com/Ro706/play-with-number/assets/60247178/e38605e9-acb7-42aa-b2ca-2a434d84b696)
+![Web capture_24-5-2023_223418_ro706 github io](https://github.com/Ro706/play-with-number/assets/60247178/aebd79f6-fb6e-4f46-a8ab-3b5c53324493)
+
 <h2>Step 2: select any one option (for example I selected Addition )</h2>
 
-![Screenshot 2023-05-23 164318](https://github.com/Ro706/play-with-number/assets/60247178/f968db66-9829-452e-9f8a-3e8095b9d567)
+![Web capture_24-5-2023_223441_ro706 github io](https://github.com/Ro706/play-with-number/assets/60247178/852adcf1-cd53-4c0b-adad-9c3c4ff1cbf9)
 
 <h2>Step 3: solve the problem.</h2>
 
