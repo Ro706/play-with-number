@@ -88,6 +88,13 @@ function checkOption(selectedOption) {
     }, 1000);
 }
 
+function playsound(audioNAme,loop) {
+    const audio = new Audio(audioName,);
+    audio.loop = loop;
+    audio.play(); 
+}
+playsound("../play-with-number/bgaudio.mp3",true)
+
 generateEquation();
 option1.addEventListener("click", function() { checkOption(1); })
 option2.addEventListener("click", function() { checkOption(2); })

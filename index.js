@@ -9,3 +9,9 @@ button.addEventListener("click", (event) => {
         list.style.display = "none";
     }
 })
+function playsound(audioNAme,loop) {
+    const audio = new Audio(audioName,);
+    audio.loop = loop;
+    audio.play();
+}
+playsound("./bgaudio.mp3",true)
