@@ -31,5 +31,13 @@
    <a href="#"><button id="play-again" class="button"align="right">Play Again</button></a></center>
 </body>
 <script src="result.js"></script>
+<script>
+  function playsound(audioNAme,loop) {
+      const audio = new Audio(audioName,);
+      audio.loop = loop;
+      audio.play(); 
+  }
+  playsound("./bgaudio.mp3",true)
+</script>
 
 </html>
