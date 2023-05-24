@@ -28,14 +28,22 @@ header{
   
 .button{
    background-color: rgb(219, 38, 38);
-   color:white; 
+   color:rgb(0, 0, 0); 
    border-top-left-radius: 40px;
    border-bottom-right-radius: 40px;
    font-size: 30px;
    padding: 20px;
+   border: 0px;
+   border-radius: 59px;
+   background: linear-gradient(145deg, #e0e0e0, #bcbcbc);
+   box-shadow:  10px 10px 20px #7d7d7d,
+                -10px -10px 20px #ffffff;
 }
 .button:hover{
-   background-color: rgb(255, 38, 0);
+   color: rgb(46, 43, 43);
    font-size: 35px;
    cursor: pointer;
+}
+.game{
+  font-size: x-large;
 }
