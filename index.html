@@ -9,10 +9,11 @@
     <title>maths Game</title>
 </head>
 <body>
-    <audio autoplay id="audio">
+    <audio autoplay loop>
         <source src="./bgaudio.mp3" type="audio/mp3">
     </audio>
-     <center><img src="/logo.jpg" alt="Logo"></center>
+    <center>
+        <img src="/logo.jpg" alt="Logo"></center>
     <br><br><br><br><br><br><br><br>
     <center>
         <button id="start">START</button>
@@ -31,15 +32,8 @@
         </ul>
          <br><br><br>
     </center>
+    <audio autoplay loop controls hidden preload="auto" src="./bgaudio.mp3" type="audio/mpeg"></audio>
     <script src="/index.js"></script>
-    <script>
-        function playsound(audioNAme,loop) {
-            const audio = new Audio(audioName);
-            audio.loop = loop;
-            audio.play(); 
-        }
-        playsound("../play-with-number/bgaudio.mp3",true)
-    </script>
     <footer >
         <p>©Team_Tetra<br>
         <a href="https://github.com/Ro706/play-with-number">GitHub</a></p>

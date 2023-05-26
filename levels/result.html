@@ -10,9 +10,6 @@
 </head>
 
 <body>
-  <audio autoplay loop id="audio">
-    <source src="./bgaudio.mp3" type="audio/mp3">
-  </audio>
     <header>
         <div class="container">
           <div class="nav">
@@ -30,13 +27,5 @@
    <a href="#"><button id="play-again" class="button"align="right">Play Again</button></a></center>
 </body>
 <script src="result.js"></script>
-<script>
-  function playsound(audioNAme,loop) {
-      const audio = new Audio(audioName);
-      audio.loop = loop;
-      audio.play(); 
-  }
-  playsound("../play-with-number/bgaudio.mp3",true)
-</script>
 
 </html>
