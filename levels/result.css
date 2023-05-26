@@ -1,49 +1,62 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #ffffff;
-  }
+}
 header{
     background: #FE4A49;
-  }
+}
 
 .container{
     width: 95%;
     margin: auto;
-  }
-  
-  .nav{
+}
+
+.nav{
     overflow: hidden;
     background:#FE4A49;
     color: #fff;
     padding: 20px 0;
-  }
-  
+}
+
 .logo{
     width:97%;
 }
-  
-  nav{
+
+nav{
     float: right;
-  }
-  
+}
+
+#ended{
+    color: #feb649;
+    font-size: 80px;
+    margin-top: 50px;
+    margin-bottom: 1px;
+}
+
+#banner{
+    margin-top: 0px;
+    height: 400px;
+    width: auto;
+}
+
 .button{
-   background-color: rgb(219, 38, 38);
-   color:rgb(0, 0, 0); 
-   border-top-left-radius: 40px;
-   border-bottom-right-radius: 40px;
-   font-size: 30px;
-   padding: 20px;
-   border: 0px;
-   border-radius: 59px;
-   background: linear-gradient(145deg, #e0e0e0, #bcbcbc);
-   box-shadow:  10px 10px 20px #7d7d7d,
-                -10px -10px 20px #ffffff;
+    background-color: rgb(219, 38, 38);
+    color:rgb(0, 0, 0); 
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    font-size: 30px;
+    padding: 20px;
+    border: 0px;
+    border-radius: 59px;
+    background: linear-gradient(145deg, #e0e0e0, #bcbcbc);
+    box-shadow:  10px 10px 20px #7d7d7d,
+    -10px -10px 20px #ffffff;
 }
 .button:hover{
-   color: rgb(46, 43, 43);
-   font-size: 35px;
-   cursor: pointer;
+    color: rgb(46, 43, 43);
+    font-size: 35px;
+    cursor: pointer;
 }
 .game{
-  font-size: x-large;
+    font-size: x-large;
 }
