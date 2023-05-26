@@ -64,7 +64,7 @@ function generateEquation() {
     option3.innerHTML = options[2];
 }
 
-var correct = 0, score = 0, range = 3, level = 'divide.html';
+var correct = 0, score = 0, range = 3;
 
 // Checking the option selected
 function checkOption(selectedOption) {

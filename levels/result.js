@@ -7,17 +7,6 @@ function getScoreFromURL() {
     return score;
 }
 
-function playAgain() {
-    var previousPage = sessionStorage.getItem('previousPage');
-    if (previousPage) {
-        // Redirect to previous page
-        window.location.href = previousPage;
-    } else {
-        // Redirect to a default page if the previousPage value is not set
-        window.location.href = "../index.html";
-    }
-}
-
 // Get the score and display it on the page
 var score = getScoreFromURL();
 scoreEle.innerHTML = score;

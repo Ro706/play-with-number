@@ -63,7 +63,7 @@ function generateEquation() {
     option3.innerHTML = options[2];
 }
 
-var correct = 0, score = 0, level = 'subtract.html';
+var correct = 0, score = 0;
 
 // Checking the option selected
 function checkOption(selectedOption) {
