@@ -63,7 +63,7 @@ function generateEquation() {
     option3.innerHTML = options[2];
 }
 
-var correct = 0, score = 0;
+var correct = 0, score = 0, level = 'multiplication.html';
 
 // Checking the option selected
 function checkOption(selectedOption) {
