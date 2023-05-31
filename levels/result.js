@@ -10,7 +10,7 @@ function getScoreFromURL() {
 function playAgain() {
     var previousPage = sessionStorage.getItem('previousPage');
     if (previousPage) {
-        window.location.href = previousPage;
+        window.history.back();
     } else {
         // Redirect to a default page if the previousPage value is not set
         window.location.href = "../index.html";
