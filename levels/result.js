@@ -1,5 +1,7 @@
 const scoreEle = document.getElementById('score'),
-    banner = document.getElementById('banner');
+    banner = document.getElementById('banner'),
+    winAudio = document.getElementById("myAudio"),
+    looseAudio = document.getElementById("myAudio2");
 // Function to retrieve the score from the URL query parameter
 function getScoreFromURL() {
     var urlParams = new URLSearchParams(window.location.search);
@@ -27,10 +29,14 @@ scoreEle.innerHTML = score;
 
 if (score <= 0) {
     banner.src = 'better_luck.png'
+    looseAudio.play();
 } else if (score < 10) {
     banner.src = '1star.png';
+    winAudio.play();
 } else if (score < 20) {
     banner.src = '2star.png';
+    winAudio.play();
 } else if (score < 30) {
     banner.src = '3star.png';
+    winAudio.play();
 }
