@@ -4,7 +4,9 @@ const message = document.getElementById('message'),
     option2 = document.getElementById('option2'),
     option3 = document.getElementById('option3'),
     number1 = document.getElementById('num1'),
-    number2 = document.getElementById('num2');
+    number2 = document.getElementById('num2'),
+    winAudio = document.getElementById("myAudio"),
+    looseAudio = document.getElementById("myAudio2");
 
 scoreEle.innerHTML = "Score: 0";
 
@@ -72,13 +74,15 @@ function checkOption(selectedOption) {
         correct = 1;
         score += 1;
         scoreEle.innerHTML = "Score: " + score;
+        winAudio.play();
         generateEquation();
     } else {
         message.textContent = "Incorrect!!";
         correct = 0;
         score -= 1;
         scoreEle.innerHTML = "Score: " + score;
-        generateEquation();
+        looseAudio.play();
+        // generateEquation();
     }
     //CORRECT INCORRECT message disappears within 1 second
     setTimeout(function() {

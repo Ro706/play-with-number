@@ -74,13 +74,15 @@ function checkOption(selectedOption) {
         correct = 1;
         score += 1;
         scoreEle.innerHTML = "Score: " + score;
+        winAudio.play();
         generateEquation();
     } else {
         message.textContent = "Incorrect!!";
         correct = 0;
         score -= 1;
         scoreEle.innerHTML = "Score: " + score;
-        generateEquation();
+        looseAudio.play();
+        // generateEquation();
     }
     //CORRECT INCORRECT message disappears within 1 second
     setTimeout(function() {
