@@ -21,4 +21,4 @@ Go to this URL:
 
 <h2>Step 4: result part </h2>
 
-![Web capture_23-5-2023_221721_ro706 github io](https://github.com/Ro706/play-with-number/assets/60247178/709f5e16-a30a-4322-910c-058ac9eda033)
+![Web capture_2-6-2023_224525_ro706 github io](https://github.com/Ro706/play-with-number/assets/60247178/1be71e6d-2b27-4ee9-ba46-b5ab27106d8f)
