@@ -18,6 +18,9 @@ function playAgain() {
         window.location.href = "../index.html";
     }
 }
+//check function
+var check = 1;
+sessionStorage.setItem('check',check);
 
 // Store the previous page's URL in session storage
 var currentPage = window.location.href;

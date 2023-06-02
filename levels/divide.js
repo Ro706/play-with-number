@@ -11,6 +11,14 @@ scoreEle.innerHTML = "Score: 0";
 var num1, num2, ans;
 var options = [];
 
+//check 
+function check(){
+    var check= sessionStorage.getItem('check');
+    if (check == 1){
+        window.location.reload();
+        check = sessionStorage.setItem('check',0);
+    }
+}
 function compareRandom(a, b) {
     return Math.random() - 0.5;
 }
