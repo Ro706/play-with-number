@@ -4,13 +4,14 @@ const message = document.getElementById('message'),
     option2 = document.getElementById('option2'),
     option3 = document.getElementById('option3'),
     number1 = document.getElementById('num1'),
-    number2 = document.getElementById('num2');
+    number2 = document.getElementById('num2'),
+    winAudio = document.getElementById("myAudio"),
+    looseAudio = document.getElementById("myAudio2");
 
 scoreEle.innerHTML = "Score: 0";
 
 var num1, num2, ans;
 var options = [];
-
 //check 
 function check(){
     var check= sessionStorage.getItem('check');
@@ -52,7 +53,6 @@ function generateEquation() {
     num1 = Math.floor(Math.random() * 20);
     num2 = Math.floor(Math.random() * 20);
     ans = num1 - num2;
-    console.log(ans)
 
     number1.innerHTML = num1;
     number2.innerHTML = num2;
@@ -62,7 +62,7 @@ function generateEquation() {
     options.push(ans)
     for (let _ = 0; _ < 2; _++) {
         do {
-            var dummy = Math.floor(Math.random() * 41) - 20;
+            var dummy = Math.floor(Math.random() * 40);
         } while (dummy == ans);
         options.push(dummy);
     }
@@ -73,7 +73,7 @@ function generateEquation() {
     option3.innerHTML = options[2];
 }
 
-var correct = 0, score = 0;
+var correct = 0, score = 0, range = 3;
 
 // Checking the option selected
 function checkOption(selectedOption) {
@@ -98,8 +98,6 @@ function checkOption(selectedOption) {
         message.textContent = "";
     }, 1000);
 }
-
-
 generateEquation();
 option1.addEventListener("click", function() { checkOption(1); })
 option2.addEventListener("click", function() { checkOption(2); })
