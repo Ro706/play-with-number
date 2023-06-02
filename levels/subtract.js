@@ -15,8 +15,10 @@ var options = [];
 function check(){
     var check= sessionStorage.getItem('check');
     if (check == 1){
+        check = 0;
+        check = sessionStorage.setItem('check',check);
         window.location.reload();
-        check = sessionStorage.setItem('check',0);
+        
     }
 }
 function compareRandom(a, b) {
