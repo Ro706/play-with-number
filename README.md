@@ -24,7 +24,7 @@ Go to this URL:
 ![Web capture_2-6-2023_224525_ro706 github io](https://github.com/Ro706/play-with-number/assets/60247178/1be71e6d-2b27-4ee9-ba46-b5ab27106d8f)
 
 # This game is made by 
-1) Ro706 
-2) Aryan152005
-3) saumitrapatil
-4) Krunal-375
+1) https://github.com/Ro706 
+2) https://github.com/Aryan152005
+3) https://github.com/saumitrapatil
+4) https://github.com/Krunal-375
