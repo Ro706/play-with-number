@@ -13,7 +13,7 @@ scoreEle.innerHTML = "Score: 0";
 var num1, num2, ans;
 var options = [];
 
-var link = sessionStorage.setItem('link', './play-with-number/levels/multiplication.html');
+var link = sessionStorage.setItem('link', './levels/multiplication.html');
 function compareRandom(a, b) {
     return Math.random() - 0.5;
 }
