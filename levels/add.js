@@ -12,16 +12,7 @@ scoreEle.innerHTML = "Score: 0";
 
 var num1, num2, ans;
 var options = [];
-//check 
-function check(){
-    var check= sessionStorage.getItem('check');
-    if (check == 1){
-        check = 0;
-        check = sessionStorage.setItem('check',check);
-        window.location.reload();
-        
-    }
-}
+var link = sessionStorage.setItem('link', './play-with-number/levels/add.html');
 function compareRandom(a, b) {
     return Math.random() - 0.5;
 }
