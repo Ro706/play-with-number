@@ -1,5 +1,5 @@
-const button = document.getElementById("start");
-const list = document.getElementById("list");
+const button = document.getElementById("start"),
+      list = document.getElementById("list");
 list.style.display = "none";
 button.addEventListener("click", (event) => {
     if (list.style.display == "none") {
