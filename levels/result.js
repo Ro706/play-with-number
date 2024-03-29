@@ -39,7 +39,7 @@ if (score <= 0) {
 } else if (score < 20) {
     banner.src = '2star.png';
     winAudio.play();
-} else if (score < 30) {
+} else {
     banner.src = '3star.png';
     winAudio.play();
 }
