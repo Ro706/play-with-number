@@ -22,7 +22,7 @@ footer {
   padding: 1px;
   background-color: DarkSalmon;
   color: white;
-  position:fixed;
+  position: fixed;
   bottom: 0;
 }
 
@@ -43,43 +43,51 @@ footer {
   font-size: 35px;
 }
 
-.nano {
-  border: 0px;
-  font-size: 30px;
-  padding: 10px;
-  border-radius: 46px;
-  background: #e0e0e0;
-  box-shadow: 7px 7px 14px #676767,
-    -7px -7px 14px #ffffff;
-}
-
-.nano:hover {
-  cursor: pointer;
-  color: rgb(51, 51, 51);
-  font-size: 35px;
-}
-
 .nano1 {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 220px;
   border: 0px;
   font-size: 30px;
   padding: 10px;
   border-radius: 46px;
   background: #fab85b;
-  justify-content: center;
+  position: relative;
+  overflow: hidden;
   box-shadow: 7px 7px 14px #676767,
     -7px -7px 14px #ffffff;
+  transition: all 0.3s ease;
 }
-
 .nano1:hover {
-  cursor: pointer;
-  color: rgb(51, 51, 51);
-  font-size: 35px;
+  height: 50px; /* Adjust the height to maintain button shape */
+}
+.nano1 img {
+  width: 25%;
+  height: auto;
+  position: absolute;
+  left: 50%; /* Center the image horizontally */
+  transform: translateX(-50%); /* Adjust to center the image */
+  transition: all 0.3s ease;
 }
 
-a{
+.nano1 span {
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.nano1:hover img {
+  left: calc(100% - 35px); /* Move the image to the right edge */
+}
+
+.nano1:hover span {
+  opacity: 1;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+a {
   text-decoration: none;
   color: black;
 }
@@ -88,8 +96,55 @@ a{
   padding: 0;
   margin: 0;
 }
-.nano1 img{
-  width: 25%;
-  height: 25%;
-  margin-left: 10px;
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  #start {
+    font-size: 35px;
+    padding: 18px;
+  }
+
+  .nano1 {
+    font-size: 25px;
+    padding: 8px;
+  }
+
+  .nano1 img {
+    width: 20%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  #start {
+    font-size: 30px;
+    padding: 15px;
+  }
+
+  .nano1 {
+    font-size: 20px;
+    padding: 6px;
+  }
+
+  .nano1 img {
+    width: 18%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  #start {
+    font-size: 25px;
+    padding: 12px;
+  }
+
+  .nano1 {
+    font-size: 18px;
+    padding: 5px;
+  }
+
+  .nano1 img {
+    width: 15%;
+    height: auto;
+  }
 }
