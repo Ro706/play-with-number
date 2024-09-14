@@ -1,22 +1,29 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #ffffff;
-  }
+}
+
 header{
     background: #FE4A49;
-  }
+}
 
 .container{
     width: 95%;
     margin: auto;
-  }
-  
-  .nav{
+}
+
+#banner{
+  margin-top: -200px;
+  width: 40%;
+  height: auto;
+}
+
+.nav{
     overflow: hidden;
     background:#FE4A49;
     color: #fff;
     padding: 20px 0;
-  }
+}
   
 .logo{
     width:97%;
@@ -41,7 +48,7 @@ nav{
 }
 .button:hover{
    color: rgb(46, 43, 43);
-   font-size: 35px;
+   font-size: 31px;
    cursor: pointer;
 }
 .game{
