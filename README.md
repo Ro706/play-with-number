@@ -6,7 +6,7 @@ These games can be `educational and entertaining`, helping players improve their
 
 # How to play 
 Go to this URL: 
-`https://ro706.github.io/play-with-number/` <br>
+[`Play with number`](https://ro706playwithnumbers.netlify.app/) <br>
 <h2>Step 1: click on the Start button.</h2>
 
 ![Web capture_24-5-2023_223418_ro706 github io](https://github.com/Ro706/play-with-number/assets/60247178/aebd79f6-fb6e-4f46-a8ab-3b5c53324493)
