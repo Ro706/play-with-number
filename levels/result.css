@@ -51,8 +51,17 @@ nav{
    font-size: 31px;
    cursor: pointer;
 }
-.game{
-  font-size: x-large;
+.game {
+  color: #b7f446; /* Text color */
+  font-size: 60px; /* Font size */
+  margin: 20px 0; /* Margin for spacing */
+  text-align: center; /* Center align the text */
+  font-weight: 600; /* Bold font weight */
+}
+
+#score {
+  font-weight: bold; /* Make the score bold */
+  color:#b7f446; /* Color for the score */
 }
 #ended{
   font-size: 60px;
@@ -65,15 +74,21 @@ nav{
   .button{
     font-size: 20px;
   }
-  .game , .score{
-    font-size: 10px;
+  .game {
+    font-size: 60px;
+    color:#b7f446;
+    font-weight: 600;
+  }
+  #score{
+    font-size: 60px;
   }
   .nav{
     padding: 10px 0;
   }
   #banner{
     margin-top: -60px;
-    width: 100%;
+    margin-left: -20px;
+    width: 70%;
     height: auto;
   }
 }
