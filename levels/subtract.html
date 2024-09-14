@@ -25,11 +25,19 @@
                 <div class="timer" align="left">Time remaining: <span id="time-remaining">60</span> seconds</div>
                 <br><br>
                 <nav>
+                    <ul class="sidebar">
+                        <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                        <li><a href="add.html">addition</a></li>
+                        <li><a href="subtract.html">subtraction</a></li>
+                        <li><a href="divide.html">Division</a></li>
+                        <li><a href="multiplication.html">Multiplication</a></li>
+                    </ul>
                     <ul>
-                        <li><a href="./add.html">Addition</a></li>
-                        <li class="current"><a href="./subtract.html">Subtraction</a></li>
-                        <li><a href="./multiplication.html">Multiplication</a></li>
-                        <li><a href="./divide.html">Division</a></li>
+                        <li class="hideOnMobile"><a href="add.html">Addition</a></li>
+                        <li class="hideOnMobile"><a href="subtract.html">Subtraction</a></li>
+                        <li class="hideOnMobile"><a href="divide.html">Division</a></li>
+                        <li class="hideOnMobile"><a href="multiplication.html">Multiplication</a></li>
+                        <li class="menu-btn" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
                     </ul>
                 </nav>
             </div>
@@ -60,5 +68,14 @@
     </div>
 </body>
 <script src="./subtract.js"></script>
-
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector(".sidebar")
+        sidebar.style.display = "flex";
+    }
+    function hideSidebar(){
+        const sidebar = document.querySelector(".sidebar")
+        sidebar.style.display = "none";
+    }
+</script>
 </html>
