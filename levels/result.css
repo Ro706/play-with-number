@@ -22,9 +22,9 @@ header{
     width:97%;
 }
   
-  nav{
+nav{
     float: right;
-  }
+}
   
 .button{
    background-color: rgb(219, 38, 38);
@@ -55,3 +55,18 @@ header{
   .ended{
     font-size: 20px;
   }
+  .button{
+    font-size: 20px;
+  }
+  .game , .score{
+    font-size: 10px;
+  }
+  .nav{
+    padding: 10px 0;
+  }
+  #banner{
+    margin-top: -60px;
+    width: 100%;
+    height: auto;
+  }
+}
